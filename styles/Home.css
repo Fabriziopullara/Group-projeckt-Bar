@@ -1,15 +1,15 @@
-.top-page-container{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #511ab750;
-padding-top: 150px;
-padding-bottom: 150px;
+.top-page-container {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #511ab767;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border-radius: 15px;
 }
 
-
-.top-page-container::after{
+.top-page-container::after {
   content: "";
   opacity: 0.7;
   position: absolute;
@@ -25,75 +25,106 @@ padding-bottom: 150px;
   background-position: center;
   background-attachment: fixed;
   background-color: #511ab7;
-
+  border-radius: 15px;
 }
 
+.reservation-btn {
+  padding: 8px;
+  font-family: "Denk One", sans-serif;
+  background-color: #511ab791;
+}
 
+.reservation-btn:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 128, 0, 0.386);
+}
 
-
-h1{
+.link-reservation {
   color: white;
-  font-family: 'Denk One', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-family: "Denk One", sans-serif;
   font-size: 80px;
   display: flex;
   justify-content: center;
 }
 
-.resevation-btn{
- 
-}
+/*Navigation bar style*/
 
-
-.nav-bar{
+.nav-bar {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   border-radius: 10px;
 }
 
-.li-nav{
+.li-nav {
   color: black;
   font-size: 20px;
   background-color: #511ab73b;
-  padding: 3px;
+  padding: 5px;
   border-radius: 5px;
+  margin-left: 10px;
+  position: relative;
+  left: 30px;
+  text-decoration: none;
 }
 
-
-
-.li-nav:hover{
+.li-nav:hover {
   cursor: pointer;
   background-color: rgba(165, 42, 42, 0.522);
   font-size: 25px;
 }
 
-.Japanese-drink-img{
+.nav-bar-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.img-logo {
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+  right: 30px;
+}
+.img-logo:hover {
+  cursor: pointer;
+}
+
+/*other*/
+
+.Japanese-drink-img {
   max-width: 350px;
   max-height: 350px;
   width: 100%;
   border-radius: 5px;
+  margin-right: 15px;
 }
 
-.first-container{
+.first-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 50px;
 }
 
-.Japanese-drink-container{
+.Japanese-drink-container {
   display: flex;
   flex-direction: column;
   width: 250px;
-
 }
 
-h2{
-  font-family: 'Denk One', sans-serif;
+h2 {
+  font-family: "Denk One", sans-serif;
 }
-p{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   word-spacing: 3px;
   color: rgb(96, 96, 96);
 }
