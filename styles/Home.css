@@ -128,6 +128,7 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 50px;
+  flex-wrap: wrap;
 }
 
 .Japanese-drink-container,
@@ -150,10 +151,13 @@ p {
 .container-sub-map{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
  padding-top: 50px;
  padding-bottom: 50px;
-  border: 1px solid black;
+ padding-left: 5px;
+ padding-right: 5px;
+  border: 1px none black;
   border-radius: 8px;
   margin-top: 10px;
   background-color:#511ab767;
