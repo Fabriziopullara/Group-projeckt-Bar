@@ -1,18 +1,17 @@
-body{
+body {
   background-color: #511ab765;
 }
-
-
 
 .top-page-container {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #0a0a0a23;
+  background-color: #0a0a0a74;
   padding-top: 150px;
   padding-bottom: 150px;
   border-radius: 15px;
+  flex-wrap: wrap;
 }
 
 .top-page-container::after {
@@ -65,10 +64,8 @@ h1 {
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
-  
+  flex-wrap: wrap;
 }
-
-
 
 .nav-bar {
   list-style: none;
@@ -76,10 +73,7 @@ h1 {
   justify-content: space-around;
   font-family: "Denk One", sans-serif;
   border-radius: 10px;
- 
 }
-
-
 
 .li-nav {
   color: black;
@@ -98,8 +92,6 @@ h1 {
   background-color: rgba(165, 42, 42, 0.522);
   font-size: 25px;
 }
-
-
 
 .img-logo {
   width: 70px;
@@ -148,45 +140,54 @@ p {
 }
 /*map*/
 
-.container-sub-map{
+.container-sub-map {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
- padding-top: 50px;
- padding-bottom: 50px;
- padding-left: 5px;
- padding-right: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: 1px none black;
   border-radius: 8px;
   margin-top: 10px;
-  background-color:#511ab767;
-  
+  background-color: #511ab767;
 }
 
-iframe{
+iframe {
   border-radius: 3px;
 }
 
-input{
+input {
   border: none;
-  padding: 5px;}
+  padding: 5px;
+}
 
-  .sub-btn{
-    padding: 4px;
-    border-radius: 5px;
-    border-style: solid 1px;
-    font-family: cursive;
-    background-color: #511ab7;
-    color: white;
-  }
+.sub-btn {
+  padding: 4px;
+  border-radius: 5px;
+  border-style: solid 1px;
+  font-family: cursive;
+  background-color: #511ab7;
+  color: white;
+}
 
-  .sub-btn:hover{
+.sub-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgba(0, 128, 0, 0.603);
+}
+.p-news {
+  color: black;
+}
 
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: rgba(0, 128, 0, 0.603);
-  }
-  .p-news{
-    color: black;
-  }
+/*Footer*/
+
+.footer-container {
+  padding-top: 50px;
+}
+
+.social-icon {
+  width: 30px;
+}
