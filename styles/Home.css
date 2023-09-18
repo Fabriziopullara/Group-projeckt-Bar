@@ -1,9 +1,15 @@
+body{
+  background-color: #511ab765;
+}
+
+
+
 .top-page-container {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #511ab767;
+  background-color: #0a0a0a23;
   padding-top: 150px;
   padding-bottom: 150px;
   border-radius: 15px;
@@ -55,13 +61,25 @@ h1 {
 
 /*Navigation bar style*/
 
+.nav-bar-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  
+}
+
+
+
 .nav-bar {
   list-style: none;
   display: flex;
   justify-content: space-around;
   font-family: "Denk One", sans-serif;
   border-radius: 10px;
+ 
 }
+
+
 
 .li-nav {
   color: black;
@@ -81,11 +99,7 @@ h1 {
   font-size: 25px;
 }
 
-.nav-bar-container {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 30px;
-}
+
 
 .img-logo {
   width: 70px;
@@ -99,7 +113,8 @@ h1 {
 
 /*other*/
 
-.Japanese-drink-img {
+.Japanese-drink-img,
+.fruit-drink-img {
   max-width: 350px;
   max-height: 350px;
   width: 100%;
@@ -107,14 +122,16 @@ h1 {
   margin-right: 15px;
 }
 
-.first-container {
+.first-container,
+.second-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 50px;
 }
 
-.Japanese-drink-container {
+.Japanese-drink-container,
+.fruit-drink-container {
   display: flex;
   flex-direction: column;
   width: 250px;
