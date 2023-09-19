@@ -1,18 +1,17 @@
-body{
+body {
   background-color: #511ab765;
 }
-
-
 
 .top-page-container {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #0a0a0a23;
+  background-color: #0a0a0a74;
   padding-top: 150px;
   padding-bottom: 150px;
   border-radius: 15px;
+  flex-wrap: wrap;
 }
 
 .top-page-container::after {
@@ -65,10 +64,8 @@ h1 {
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
-  
+  flex-wrap: wrap;
 }
-
-
 
 .nav-bar {
   list-style: none;
@@ -76,10 +73,7 @@ h1 {
   justify-content: space-around;
   font-family: "Denk One", sans-serif;
   border-radius: 10px;
- 
 }
-
-
 
 .li-nav {
   color: black;
@@ -98,8 +92,6 @@ h1 {
   background-color: rgba(165, 42, 42, 0.522);
   font-size: 25px;
 }
-
-
 
 .img-logo {
   width: 70px;
@@ -128,6 +120,7 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 50px;
+  flex-wrap: wrap;
 }
 
 .Japanese-drink-container,
@@ -144,4 +137,87 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   word-spacing: 3px;
   color: rgb(96, 96, 96);
+}
+/*map*/
+
+.container-sub-map {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px none black;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #511ab767;
+}
+
+iframe {
+  border-radius: 3px;
+}
+
+input {
+  border: none;
+  padding: 5px;
+}
+
+.sub-btn {
+  padding: 4px;
+  border-radius: 5px;
+  border-style: solid 1px;
+  font-family: cursive;
+  background-color: #511ab7;
+  color: white;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgba(0, 128, 0, 0.603);
+}
+.p-news {
+  color: black;
+}
+
+/*Footer*/
+
+.footer-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-icon {
+  width: 30px;
+  margin-left: 10px;
+}
+h4{
+  font-family: "Denk One", sans-serif;
+}
+
+h5{
+  color: rgb(208, 52, 52);
+  font-family: cursive;
+}
+.icon-footer{
+  width: 25px;
+}
+
+.end-line{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+background-color:#511ab7aa;
+}
+.powered-text{
+  color: white;
+  margin-left: 15px;
+  font-family: "Denk One", sans-serif;
+letter-spacing: 2px;
+  
 }
