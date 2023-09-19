@@ -216,5 +216,8 @@ background-color:#511ab7aa;
 }
 .powered-text{
   color: white;
-  margin-left: 8px;
+  margin-left: 15px;
+  font-family: "Denk One", sans-serif;
+letter-spacing: 2px;
+  
 }
