@@ -63,8 +63,15 @@ h1 {
 .nav-bar-container {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.81);
+  width: 100%;
+  z-index: 1;
+  border-radius: 5px;
 }
 
 .nav-bar {
@@ -195,29 +202,28 @@ input {
   width: 30px;
   margin-left: 10px;
 }
-h4{
+h4 {
   font-family: "Denk One", sans-serif;
 }
 
-h5{
+h5 {
   color: rgb(208, 52, 52);
   font-family: cursive;
 }
-.icon-footer{
+.icon-footer {
   width: 25px;
 }
 
-.end-line{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 10px;
-background-color:#511ab7aa;
+.end-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #511ab7aa;
 }
-.powered-text{
+.powered-text {
   color: white;
   margin-left: 15px;
   font-family: "Denk One", sans-serif;
-letter-spacing: 2px;
-  
+  letter-spacing: 2px;
 }
