@@ -207,3 +207,6 @@ section i:hover {
 .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
 }
+.social-menu ul li:nth-child(6) a:hover {
+    background-color: #2dd146;
+}
