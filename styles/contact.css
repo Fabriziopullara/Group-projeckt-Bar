@@ -59,7 +59,14 @@ section i {
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
     text-align: center;
+    transition: width 1s, height 1s;
 }
+
+section i:hover {
+    width: 60px;
+    height: 60px;
+}
+
 
 .form {
     display: flex;
@@ -139,6 +146,13 @@ section i {
     list-style: none;
 }
 
-.media li {
+.media i {
     margin: 20px 30px;
+}
+
+.media i:hover {
+    width: 10px;
+    height: 10px;
+    transform: rotate(180deg);
+    transition-timing-function: ease-in-out;
 }
