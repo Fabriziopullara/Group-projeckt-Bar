@@ -42,6 +42,8 @@ body {
 .reservation-btn:hover {
   transform: scale(1.1);
   background-color: rgba(0, 128, 0, 0.386);
+  transition: all 0.8s ease-in-out;
+  transition-delay: 0.2s;
 }
 
 .link-reservation {
@@ -98,6 +100,8 @@ h1 {
   cursor: pointer;
   background-color: rgba(165, 42, 42, 0.522);
   font-size: 25px;
+  transition: all 0.8s ease-in-out;
+  transition-delay: 0.2s;
 }
 
 .img-logo {
@@ -183,7 +187,9 @@ input {
 .sub-btn:hover {
   cursor: pointer;
   transform: scale(1.1);
-  background-color: rgba(0, 128, 0, 0.603);
+  background-color: rgba(0, 128, 0, 0.419);
+  transition: all 0.8s ease-in-out;
+  transition-delay: 0.2s;
 }
 .p-news {
   color: black;
@@ -227,3 +233,4 @@ h5 {
   font-family: "Denk One", sans-serif;
   letter-spacing: 2px;
 }
+
