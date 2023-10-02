@@ -70,7 +70,7 @@ body {
   flex-wrap: wrap;
   position: fixed;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.81);
+  background-color: #ffffffcf;
   width: 100%;
   z-index: 1;
   border-radius: 5px;
@@ -111,6 +111,7 @@ body {
   position: relative;
   right: 10px;
 }
+
 .img-logo:hover {
   cursor: pointer;
 }
@@ -123,7 +124,7 @@ body {
   max-height: 350px;
   width: 100%;
   border-radius: 5px;
-  
+
 }
 
 .first-container,
@@ -145,11 +146,13 @@ body {
 h2 {
   font-family: "Denk One", sans-serif;
 }
+
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   word-spacing: 3px;
   color: rgb(96, 96, 96);
 }
+
 /*map*/
 
 .container-sub-map {
@@ -192,6 +195,7 @@ input {
   transition: all 0.8s ease-in-out;
   transition-delay: 0.2s;
 }
+
 .p-news {
   color: black;
 }
@@ -209,6 +213,7 @@ input {
   width: 30px;
   margin-left: 10px;
 }
+
 h4 {
   font-family: "Denk One", sans-serif;
 }
@@ -217,6 +222,7 @@ h5 {
   color: rgb(208, 52, 52);
   font-family: cursive;
 }
+
 .icon-footer {
   width: 25px;
   padding-left: 8px;
@@ -229,6 +235,7 @@ h5 {
   margin-top: 10px;
   background-color: #511ab7aa;
 }
+
 .powered-text {
   color: white;
   margin-left: 15px;
