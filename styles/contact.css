@@ -124,18 +124,22 @@ section i:hover {
 }
 
 .form .contact-form input[type=submit] {
-    background-color: dodgerblue;
-    border: 2px solid dodgerblue;
+    background-color: rgb(120 113 195);
+    border: 2px solid rgb(120 113 195);
     font-size: 18px;
-    border-radius: 6px;
-    width: 50%;
-    height: 40px;
+    border-radius: 4px;
+    width: 26%;
+    height: 50px;
     margin-top: -13px;
+    transition: width 1s;
 }
 
 .form .contact-form input[type=submit]:hover {
     background-color: transparent;
-    color: dodgerblue;
+    color: #ffffff;
+    width: 50px;
+    transform: scale(1);
+    width: 260px;
 }
 
 .social-menu{
