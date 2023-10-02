@@ -1,0 +1,63 @@
+body {
+    background-color: #511ab765;
+  }
+
+  h1{
+      color: white;
+      font-family: "Denk One", sans-serif; 
+      font-size: 80px;
+      display: flex;
+      justify-content: center;
+  }
+
+  h2 {
+    color: white;
+      font-family: "Denk One", sans-serif; 
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  h3 {
+
+    color: black;
+    font-family: "Denk One", sans-serif; 
+    text-align: center;
+  }
+
+  p { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 
+    word-spacing: 3px;
+    color: rgb(96, 96, 96);
+  }
+  
+.venue-img, .relax-img, .party-img {
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+  
+.first-container, .third-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.second-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.history-container, .vision-container, .events-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
