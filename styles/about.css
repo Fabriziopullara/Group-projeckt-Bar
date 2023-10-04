@@ -2,7 +2,7 @@ body {
     background-color: #511ab765;
   }
 
-.top-page-container {
+.top-container {
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -14,7 +14,7 @@ body {
     flex-wrap: wrap;
   }
   
-.top-page-container::after {
+.top-container::after {
     content: "";
     opacity: 0.7;
     position: absolute;
